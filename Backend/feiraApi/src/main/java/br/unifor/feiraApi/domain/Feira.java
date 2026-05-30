@@ -26,6 +26,8 @@ public class Feira {
         this.tipoFeira = tipoFeira;
     }
 
+    public Feira() {}
+
     public Long getId() {
         return id;
     }

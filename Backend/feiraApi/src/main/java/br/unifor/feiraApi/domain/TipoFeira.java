@@ -20,6 +20,8 @@ public class TipoFeira {
         this.descricao = descricao;
     }
 
+    public TipoFeira() {}
+
     public Long getId() {
         return id;
     }
