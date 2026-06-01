@@ -1,13 +1,13 @@
 import { TestBed } from '@angular/core/testing';
 
-import { FeiraApi } from './feira-api';
+import { FeiraApiService } from './feira-api';
 
-describe('FeiraApi', () => {
-  let service: FeiraApi;
+describe('FeiraApiService', () => {
+  let service: FeiraApiService;
 
   beforeEach(() => {
     TestBed.configureTestingModule({});
-    service = TestBed.inject(FeiraApi);
+    service = TestBed.inject(FeiraApiService);
   });
 
   it('should be created', () => {
